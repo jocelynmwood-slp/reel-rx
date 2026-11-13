@@ -1,0 +1,64 @@
+{
+  "packVersion": 1,
+  "id": "slp-hooks-free",
+  "name": "10 Free SLP Hooks",
+  "profession": "slp",
+  "tier": "free",
+  "kind": "addon",
+  "version": "1.0.0",
+  "updated": "2026-11-09",
+  "author": "Systems with Jwo",
+  "notice": "A practical safety net, not legal advice. Your license rules, state laws and any employer or school social media policy come first.",
+  "hooks": [
+    {
+      "reelType": "tip",
+      "audience": "parents",
+      "text": "Quizzing your toddler isn't the same as teaching words."
+    },
+    {
+      "reelType": "tip",
+      "audience": "parents",
+      "text": "Try this the next time they point and grunt."
+    },
+    {
+      "reelType": "tip",
+      "audience": "parents",
+      "text": "The car might be the best place to practice talking."
+    },
+    {
+      "reelType": "tip",
+      "audience": "parents",
+      "text": "Your child says one word. Add one more."
+    },
+    {
+      "reelType": "bts",
+      "audience": "parents",
+      "text": "Setting up my therapy room before anyone gets here."
+    },
+    {
+      "reelType": "bts",
+      "audience": "parents",
+      "text": "What I do after every session that nobody sees."
+    },
+    {
+      "reelType": "question",
+      "audience": "parents",
+      "text": "'Should my 2-year-old be saying more words?'"
+    },
+    {
+      "reelType": "question",
+      "audience": "parents",
+      "text": "'He's a boy, he'll talk later.' Let's talk about that."
+    },
+    {
+      "reelType": "question",
+      "audience": "parents",
+      "text": "3 signs it's worth getting a speech evaluation."
+    },
+    {
+      "reelType": "question",
+      "audience": "parents",
+      "text": "What actually happens at a speech evaluation?"
+    }
+  ]
+}

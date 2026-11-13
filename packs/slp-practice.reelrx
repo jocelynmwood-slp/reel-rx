@@ -1,0 +1,2110 @@
+{
+  "packVersion": 1,
+  "id": "slp-practice",
+  "name": "SLP Practice Pack",
+  "profession": "slp",
+  "tier": "paid",
+  "kind": "base",
+  "version": "1.0.0",
+  "updated": "2026-11-09",
+  "author": "Systems with Jwo",
+  "notice": "A practical safety net, not legal advice. Your license rules, state laws and any employer or school social media policy come first.",
+  "endCard": false,
+  "license": "For one clinician's own use. Please don't share the file.",
+  "spelling": [
+    {
+      "write": "apraxia",
+      "heard": [
+        "a praxia",
+        "upraxia",
+        "apraxsia"
+      ]
+    },
+    {
+      "write": "childhood apraxia of speech",
+      "heard": [
+        "childhood a praxia of speech"
+      ]
+    },
+    {
+      "write": "CAS",
+      "heard": [
+        "c.a.s."
+      ],
+      "ask": true
+    },
+    {
+      "write": "dysarthria",
+      "heard": [
+        "dis arthria",
+        "disarthria",
+        "dysarthia"
+      ]
+    },
+    {
+      "write": "aphasia",
+      "heard": [
+        "a phasia",
+        "afasia"
+      ]
+    },
+    {
+      "write": "dysphagia",
+      "heard": [
+        "disphagia",
+        "dis phagia"
+      ]
+    },
+    {
+      "write": "dysphagia",
+      "heard": [
+        "dysphasia"
+      ],
+      "ask": true
+    },
+    {
+      "write": "phonological",
+      "heard": [
+        "phonologic al",
+        "phonelogical"
+      ]
+    },
+    {
+      "write": "articulation"
+    },
+    {
+      "write": "stuttering"
+    },
+    {
+      "write": "AAC",
+      "heard": [
+        "a.a.c.",
+        "a a c",
+        "aac"
+      ]
+    },
+    {
+      "write": "echolalia",
+      "heard": [
+        "echo lalia",
+        "ecolalia",
+        "eckolalia"
+      ]
+    },
+    {
+      "write": "gestalt language processing",
+      "heard": [
+        "gestault language processing",
+        "gesthalt language processing"
+      ]
+    },
+    {
+      "write": "GLP",
+      "heard": [
+        "g.l.p."
+      ]
+    },
+    {
+      "write": "tongue tie",
+      "heard": [
+        "tonguetie"
+      ]
+    },
+    {
+      "write": "frenectomy",
+      "heard": [
+        "frenetomy",
+        "friendectomy",
+        "phrenectomy"
+      ]
+    },
+    {
+      "write": "myofunctional",
+      "heard": [
+        "myo functional",
+        "my functional"
+      ]
+    },
+    {
+      "write": "orofacial",
+      "heard": [
+        "oral facial"
+      ],
+      "ask": true
+    },
+    {
+      "write": "bilingual"
+    },
+    {
+      "write": "late talker",
+      "heard": [
+        "late talk er"
+      ]
+    },
+    {
+      "write": "Hanen",
+      "heard": [
+        "hannon",
+        "hanan",
+        "hannen",
+        "haneen"
+      ]
+    },
+    {
+      "write": "PROMPT",
+      "heard": [
+        "prompt"
+      ],
+      "ask": true
+    },
+    {
+      "write": "SLP",
+      "heard": [
+        "s.l.p.",
+        "s l p"
+      ]
+    },
+    {
+      "write": "OT",
+      "heard": [
+        "o.t."
+      ]
+    },
+    {
+      "write": "PT",
+      "heard": [
+        "p.t."
+      ]
+    },
+    {
+      "write": "IEP",
+      "heard": [
+        "i.e.p.",
+        "i e p"
+      ]
+    },
+    {
+      "write": "IFSP",
+      "heard": [
+        "i.f.s.p.",
+        "ifsp"
+      ]
+    },
+    {
+      "write": "early intervention"
+    },
+    {
+      "write": "autism"
+    },
+    {
+      "write": "autistic"
+    },
+    {
+      "write": "ADHD",
+      "heard": [
+        "a.d.h.d.",
+        "adhd"
+      ]
+    },
+    {
+      "write": "sensory"
+    },
+    {
+      "write": "proprioceptive",
+      "heard": [
+        "proprio ceptive",
+        "propreoceptive"
+      ]
+    },
+    {
+      "write": "vestibular",
+      "heard": [
+        "vestibuler"
+      ]
+    },
+    {
+      "write": "torticollis",
+      "heard": [
+        "torti collis",
+        "tortacollis"
+      ]
+    },
+    {
+      "write": "plagiocephaly",
+      "heard": [
+        "plagio cephaly"
+      ]
+    },
+    {
+      "write": "toe walking"
+    },
+    {
+      "write": "W-sitting",
+      "heard": [
+        "w sitting",
+        "double you sitting"
+      ]
+    },
+    {
+      "write": "speech-language pathologist",
+      "heard": [
+        "speech language pathologist"
+      ]
+    },
+    {
+      "write": "DLD",
+      "heard": [
+        "d.l.d."
+      ]
+    },
+    {
+      "write": "lisp"
+    },
+    {
+      "write": "teletherapy",
+      "heard": [
+        "tele therapy",
+        "tele-therapy"
+      ]
+    },
+    {
+      "write": "neurodiversity-affirming",
+      "heard": [
+        "neurodiversity affirming"
+      ]
+    },
+    {
+      "write": "ASHA",
+      "heard": [
+        "asha"
+      ],
+      "ask": true
+    },
+    {
+      "write": "CCC-SLP",
+      "heard": [
+        "c.c.c. s.l.p.",
+        "ccc slp"
+      ]
+    },
+    {
+      "write": "dyslexia"
+    },
+    {
+      "write": "selective mutism"
+    },
+    {
+      "write": "cleft palate",
+      "heard": [
+        "cleft pallet"
+      ]
+    },
+    {
+      "write": "phoneme",
+      "heard": [
+        "phonem"
+      ]
+    },
+    {
+      "write": "phonemic awareness"
+    },
+    {
+      "write": "minimal pairs"
+    },
+    {
+      "write": "cycles approach"
+    },
+    {
+      "write": "final consonant deletion"
+    },
+    {
+      "write": "cluster reduction"
+    },
+    {
+      "write": "fronting"
+    },
+    {
+      "write": "backing"
+    },
+    {
+      "write": "gliding"
+    },
+    {
+      "write": "stopping"
+    },
+    {
+      "write": "deaffrication",
+      "heard": [
+        "de-affrication",
+        "de affrication"
+      ]
+    },
+    {
+      "write": "vowelization"
+    },
+    {
+      "write": "interdental lisp",
+      "heard": [
+        "inter dental lisp"
+      ]
+    },
+    {
+      "write": "lateral lisp"
+    },
+    {
+      "write": "frontal lisp"
+    },
+    {
+      "write": "rhotic",
+      "heard": [
+        "rotic",
+        "rhodic"
+      ]
+    },
+    {
+      "write": "vocalic R",
+      "heard": [
+        "vocalic are",
+        "vocalic r"
+      ]
+    },
+    {
+      "write": "coarticulation",
+      "heard": [
+        "co-articulation",
+        "co articulation"
+      ]
+    },
+    {
+      "write": "stimulability",
+      "heard": [
+        "stimuability",
+        "stimulatability"
+      ]
+    },
+    {
+      "write": "intelligibility",
+      "heard": [
+        "intelligeability",
+        "intelligability"
+      ]
+    },
+    {
+      "write": "DTTC",
+      "heard": [
+        "d.t.t.c."
+      ]
+    },
+    {
+      "write": "ReST",
+      "heard": [
+        "rest"
+      ],
+      "ask": true
+    },
+    {
+      "write": "Nuffield",
+      "heard": [
+        "newfield"
+      ],
+      "ask": true
+    },
+    {
+      "write": "Kaufman",
+      "heard": [
+        "kaufmann",
+        "coffman"
+      ],
+      "ask": true
+    },
+    {
+      "write": "motor planning"
+    },
+    {
+      "write": "tactile cues"
+    },
+    {
+      "write": "morphology"
+    },
+    {
+      "write": "syntax"
+    },
+    {
+      "write": "semantics"
+    },
+    {
+      "write": "pragmatics",
+      "heard": [
+        "pragmatic s"
+      ]
+    },
+    {
+      "write": "prosody",
+      "heard": [
+        "prosidy"
+      ]
+    },
+    {
+      "write": "narrative skills"
+    },
+    {
+      "write": "MLU",
+      "heard": [
+        "m.l.u."
+      ]
+    },
+    {
+      "write": "word retrieval"
+    },
+    {
+      "write": "word-finding",
+      "heard": [
+        "word finding"
+      ]
+    },
+    {
+      "write": "language disorder"
+    },
+    {
+      "write": "language delay"
+    },
+    {
+      "write": "two-word combinations",
+      "heard": [
+        "two word combinations"
+      ]
+    },
+    {
+      "write": "babbling",
+      "heard": [
+        "babbeling"
+      ]
+    },
+    {
+      "write": "canonical babbling"
+    },
+    {
+      "write": "jargon"
+    },
+    {
+      "write": "joint attention"
+    },
+    {
+      "write": "parallel talk"
+    },
+    {
+      "write": "self-talk",
+      "heard": [
+        "self talk"
+      ]
+    },
+    {
+      "write": "expansion"
+    },
+    {
+      "write": "recasting",
+      "heard": [
+        "re-casting",
+        "re casting"
+      ]
+    },
+    {
+      "write": "wait time"
+    },
+    {
+      "write": "It Takes Two to Talk",
+      "heard": [
+        "it takes two to talk"
+      ]
+    },
+    {
+      "write": "More Than Words",
+      "heard": [
+        "more than words"
+      ],
+      "ask": true
+    },
+    {
+      "write": "NLA",
+      "heard": [
+        "n.l.a."
+      ]
+    },
+    {
+      "write": "Natural Language Acquisition",
+      "heard": [
+        "natural language acquisition"
+      ]
+    },
+    {
+      "write": "delayed echolalia"
+    },
+    {
+      "write": "immediate echolalia"
+    },
+    {
+      "write": "scripting"
+    },
+    {
+      "write": "gestalts",
+      "heard": [
+        "gestaults"
+      ]
+    },
+    {
+      "write": "mitigation"
+    },
+    {
+      "write": "stimming"
+    },
+    {
+      "write": "AuDHD",
+      "heard": [
+        "audhd",
+        "o d h d"
+      ]
+    },
+    {
+      "write": "neurodivergent"
+    },
+    {
+      "write": "neurotypical"
+    },
+    {
+      "write": "DIRFloortime",
+      "heard": [
+        "dir floortime",
+        "d.i.r. floortime",
+        "floor time"
+      ]
+    },
+    {
+      "write": "JASPER",
+      "heard": [
+        "jasper"
+      ],
+      "ask": true
+    },
+    {
+      "write": "SCERTS",
+      "heard": [
+        "skirts",
+        "scerts"
+      ],
+      "ask": true
+    },
+    {
+      "write": "PECS",
+      "heard": [
+        "pecks",
+        "pex"
+      ],
+      "ask": true
+    },
+    {
+      "write": "ABA",
+      "heard": [
+        "a.b.a."
+      ]
+    },
+    {
+      "write": "masking"
+    },
+    {
+      "write": "interoception",
+      "heard": [
+        "inner oception",
+        "interception"
+      ],
+      "ask": true
+    },
+    {
+      "write": "core vocabulary"
+    },
+    {
+      "write": "fringe vocabulary"
+    },
+    {
+      "write": "LAMP Words for Life",
+      "heard": [
+        "lamp words for life"
+      ]
+    },
+    {
+      "write": "Proloquo2Go",
+      "heard": [
+        "proloquo to go",
+        "prolo quo to go",
+        "proloquo 2 go"
+      ]
+    },
+    {
+      "write": "TouchChat",
+      "heard": [
+        "touch chat"
+      ]
+    },
+    {
+      "write": "TD Snap",
+      "heard": [
+        "t.d. snap",
+        "td snap"
+      ]
+    },
+    {
+      "write": "speech-generating device",
+      "heard": [
+        "speech generating device"
+      ]
+    },
+    {
+      "write": "SGD",
+      "heard": [
+        "s.g.d."
+      ]
+    },
+    {
+      "write": "aided language modeling"
+    },
+    {
+      "write": "robust AAC",
+      "heard": [
+        "robust aac"
+      ]
+    },
+    {
+      "write": "partner-assisted scanning",
+      "heard": [
+        "partner assisted scanning"
+      ]
+    },
+    {
+      "write": "eye gaze"
+    },
+    {
+      "write": "low-tech AAC",
+      "heard": [
+        "low tech aac"
+      ]
+    },
+    {
+      "write": "disfluency",
+      "heard": [
+        "dis fluency",
+        "dysfluency"
+      ]
+    },
+    {
+      "write": "cluttering"
+    },
+    {
+      "write": "Lidcombe",
+      "heard": [
+        "lid comb",
+        "lidcome",
+        "lidcom"
+      ]
+    },
+    {
+      "write": "prolongations"
+    },
+    {
+      "write": "stammering"
+    },
+    {
+      "write": "stuttering-affirming",
+      "heard": [
+        "stuttering affirming"
+      ]
+    },
+    {
+      "write": "hypernasality",
+      "heard": [
+        "hyper nasality"
+      ]
+    },
+    {
+      "write": "hyponasality",
+      "heard": [
+        "hypo nasality"
+      ]
+    },
+    {
+      "write": "resonance"
+    },
+    {
+      "write": "vocal nodules"
+    },
+    {
+      "write": "vocal folds"
+    },
+    {
+      "write": "larynx",
+      "heard": [
+        "larnyx",
+        "larinks"
+      ]
+    },
+    {
+      "write": "LSVT LOUD",
+      "heard": [
+        "l.s.v.t. loud",
+        "lsvt loud"
+      ]
+    },
+    {
+      "write": "SPEAK OUT!",
+      "heard": [
+        "speak out"
+      ],
+      "ask": true
+    },
+    {
+      "write": "velopharyngeal",
+      "heard": [
+        "velo pharyngeal"
+      ]
+    },
+    {
+      "write": "VPI",
+      "heard": [
+        "v.p.i."
+      ]
+    },
+    {
+      "write": "velum"
+    },
+    {
+      "write": "cleft lip"
+    },
+    {
+      "write": "gender-affirming voice",
+      "heard": [
+        "gender affirming voice"
+      ]
+    },
+    {
+      "write": "ARFID",
+      "heard": [
+        "arfid",
+        "ar fid",
+        "are fid"
+      ]
+    },
+    {
+      "write": "food chaining"
+    },
+    {
+      "write": "picky eating"
+    },
+    {
+      "write": "oral aversion"
+    },
+    {
+      "write": "pocketing"
+    },
+    {
+      "write": "tongue thrust"
+    },
+    {
+      "write": "open mouth posture"
+    },
+    {
+      "write": "mouth breathing"
+    },
+    {
+      "write": "TOTs",
+      "heard": [
+        "tots"
+      ],
+      "ask": true
+    },
+    {
+      "write": "tethered oral tissues"
+    },
+    {
+      "write": "lingual frenulum"
+    },
+    {
+      "write": "ankyloglossia",
+      "heard": [
+        "ankylo glossia",
+        "ankyloglosia"
+      ]
+    },
+    {
+      "write": "lip tie"
+    },
+    {
+      "write": "oral motor"
+    },
+    {
+      "write": "MBS",
+      "heard": [
+        "m.b.s."
+      ]
+    },
+    {
+      "write": "modified barium swallow"
+    },
+    {
+      "write": "VFSS",
+      "heard": [
+        "v.f.s.s."
+      ]
+    },
+    {
+      "write": "FEES",
+      "heard": [
+        "fees"
+      ],
+      "ask": true
+    },
+    {
+      "write": "IDDSI",
+      "heard": [
+        "iddsi",
+        "id see"
+      ],
+      "ask": true
+    },
+    {
+      "write": "thickened liquids"
+    },
+    {
+      "write": "aspiration"
+    },
+    {
+      "write": "silent aspiration"
+    },
+    {
+      "write": "TBI",
+      "heard": [
+        "t.b.i."
+      ]
+    },
+    {
+      "write": "cognitive-communication",
+      "heard": [
+        "cognitive communication"
+      ]
+    },
+    {
+      "write": "Parkinson's",
+      "heard": [
+        "parkinsons"
+      ]
+    },
+    {
+      "write": "ALS",
+      "heard": [
+        "a.l.s."
+      ]
+    },
+    {
+      "write": "dementia"
+    },
+    {
+      "write": "primary progressive aphasia"
+    },
+    {
+      "write": "anomia",
+      "heard": [
+        "a nomia"
+      ]
+    },
+    {
+      "write": "Broca's aphasia",
+      "heard": [
+        "brocas aphasia",
+        "broca aphasia"
+      ]
+    },
+    {
+      "write": "Wernicke's aphasia",
+      "heard": [
+        "wernickes aphasia",
+        "vernickies aphasia"
+      ]
+    },
+    {
+      "write": "hearing loss"
+    },
+    {
+      "write": "cochlear implant",
+      "heard": [
+        "coklear implant"
+      ]
+    },
+    {
+      "write": "auditory processing disorder"
+    },
+    {
+      "write": "APD",
+      "heard": [
+        "a.p.d."
+      ]
+    },
+    {
+      "write": "audiologist"
+    },
+    {
+      "write": "ear tubes"
+    },
+    {
+      "write": "otitis media",
+      "heard": [
+        "otitis medea"
+      ]
+    },
+    {
+      "write": "phonics"
+    },
+    {
+      "write": "decoding"
+    },
+    {
+      "write": "structured literacy"
+    },
+    {
+      "write": "Orton-Gillingham",
+      "heard": [
+        "orton gillingham"
+      ]
+    },
+    {
+      "write": "science of reading"
+    },
+    {
+      "write": "504 plan",
+      "heard": [
+        "five oh four plan"
+      ]
+    },
+    {
+      "write": "FAPE",
+      "heard": [
+        "fape"
+      ],
+      "ask": true
+    },
+    {
+      "write": "LRE",
+      "heard": [
+        "l.r.e."
+      ]
+    },
+    {
+      "write": "RTI",
+      "heard": [
+        "r.t.i."
+      ]
+    },
+    {
+      "write": "MTSS",
+      "heard": [
+        "m.t.s.s."
+      ]
+    },
+    {
+      "write": "push-in",
+      "heard": [
+        "push in"
+      ],
+      "ask": true
+    },
+    {
+      "write": "pull-out",
+      "heard": [
+        "pull out"
+      ],
+      "ask": true
+    },
+    {
+      "write": "caseload",
+      "heard": [
+        "case load"
+      ]
+    },
+    {
+      "write": "triennial",
+      "heard": [
+        "tri-annual",
+        "triannual"
+      ]
+    },
+    {
+      "write": "IEE",
+      "heard": [
+        "i.e.e."
+      ]
+    },
+    {
+      "write": "private practice"
+    },
+    {
+      "write": "superbill",
+      "heard": [
+        "super bill"
+      ]
+    },
+    {
+      "write": "out-of-network",
+      "heard": [
+        "out of network"
+      ]
+    },
+    {
+      "write": "private pay"
+    },
+    {
+      "write": "CPT code",
+      "heard": [
+        "c.p.t. code"
+      ]
+    },
+    {
+      "write": "telepractice",
+      "heard": [
+        "tele practice"
+      ]
+    },
+    {
+      "write": "SLPA",
+      "heard": [
+        "s.l.p.a.",
+        "slpa"
+      ]
+    },
+    {
+      "write": "clinical fellow"
+    },
+    {
+      "write": "CF",
+      "heard": [
+        "c.f."
+      ],
+      "ask": true
+    },
+    {
+      "write": "Medicaid",
+      "heard": [
+        "medicade"
+      ]
+    },
+    {
+      "write": "prior authorization"
+    },
+    {
+      "write": "CELF-5",
+      "heard": [
+        "self 5",
+        "celf five",
+        "self five"
+      ]
+    },
+    {
+      "write": "PLS-5",
+      "heard": [
+        "p.l.s. 5",
+        "pls 5",
+        "pls five"
+      ]
+    },
+    {
+      "write": "GFTA-3",
+      "heard": [
+        "g.f.t.a. 3",
+        "gfta 3"
+      ]
+    },
+    {
+      "write": "KLPA",
+      "heard": [
+        "k.l.p.a."
+      ]
+    },
+    {
+      "write": "CASL-2",
+      "heard": [
+        "castle 2",
+        "casl 2"
+      ],
+      "ask": true
+    },
+    {
+      "write": "PPVT",
+      "heard": [
+        "p.p.v.t."
+      ]
+    },
+    {
+      "write": "EVT",
+      "heard": [
+        "e.v.t."
+      ]
+    },
+    {
+      "write": "REEL-4",
+      "heard": [
+        "reel 4",
+        "reel four"
+      ],
+      "ask": true
+    },
+    {
+      "write": "Rossetti",
+      "heard": [
+        "rosetti",
+        "rozetti"
+      ]
+    },
+    {
+      "write": "DAYC",
+      "heard": [
+        "d.a.y.c.",
+        "day c"
+      ]
+    },
+    {
+      "write": "milestones"
+    },
+    {
+      "write": "M-CHAT",
+      "heard": [
+        "m chat",
+        "em chat"
+      ]
+    },
+    {
+      "write": "developmental pediatrician"
+    },
+    {
+      "write": "NICU",
+      "heard": [
+        "nick you",
+        "n.i.c.u."
+      ]
+    },
+    {
+      "write": "preemie"
+    },
+    {
+      "write": "adjusted age"
+    },
+    {
+      "write": "Down syndrome",
+      "heard": [
+        "downs syndrome"
+      ]
+    },
+    {
+      "write": "cerebral palsy"
+    },
+    {
+      "write": "Fragile X",
+      "heard": [
+        "fragile ex"
+      ]
+    },
+    {
+      "write": "code-switching",
+      "heard": [
+        "code switching"
+      ]
+    },
+    {
+      "write": "dialect"
+    },
+    {
+      "write": "multilingual"
+    },
+    {
+      "write": "African American English"
+    },
+    {
+      "write": "accent modification"
+    }
+  ],
+  "claims": [
+    {
+      "kind": "promise",
+      "match": [
+        "will get your child talking",
+        "will get your toddler talking",
+        "guaranteed",
+        "guarantee",
+        "100%",
+        "works every time",
+        "this will fix",
+        "will fix"
+      ],
+      "why": "Promises a result. Every child is different.",
+      "try": "This is one way to give your child more chances to talk."
+    },
+    {
+      "kind": "timeline",
+      "match": [
+        "in # weeks",
+        "in # days",
+        "in # months",
+        "by next week",
+        "overnight"
+      ],
+      "why": "A timeline is a promise you can't keep for every child.",
+      "try": "Many kids make progress with practice. Every child's timeline is different."
+    },
+    {
+      "kind": "cure",
+      "match": [
+        "cure",
+        "cured",
+        "cures",
+        "fix stuttering",
+        "fix a lisp",
+        "fix your child's",
+        "get rid of the stutter",
+        "get rid of stuttering",
+        "get rid of the lisp"
+      ],
+      "why": "'Cure' and 'fix' words promise an outcome, and can feel shaming to people who stutter.",
+      "try": "Support your child's speech."
+    },
+    {
+      "kind": "diagnosis",
+      "match": [
+        "they have apraxia",
+        "your child has apraxia",
+        "your child has autism",
+        "they have autism",
+        "means your child is",
+        "is a sign of autism",
+        "definitely has"
+      ],
+      "why": "Nobody can be diagnosed from a reel.",
+      "try": "If you notice this, it's worth asking an SLP."
+    },
+    {
+      "kind": "scope",
+      "match": [
+        "stop the medication",
+        "stop the meds",
+        "you don't need a doctor",
+        "skip the pediatrician",
+        "instead of the doctor"
+      ],
+      "why": "Medical advice is outside an SLP's lane.",
+      "try": "Talk to your pediatrician."
+    },
+    {
+      "kind": "testimonial",
+      "match": [
+        "best slp ever",
+        "five stars",
+        "5 stars",
+        "my client said",
+        "a parent told me",
+        "one of my parents said"
+      ],
+      "why": "Client quotes and reviews need written permission, and can never be made up.",
+      "try": "Cut it, or describe how you work instead."
+    },
+    {
+      "kind": "privacy",
+      "match": [
+        "my client",
+        "in session today",
+        "today in session",
+        "one of my kids",
+        "my little guy",
+        "my little girl",
+        "my kiddo"
+      ],
+      "why": "Talking about a specific client can identify them, even without a name.",
+      "try": "A lot of kids I see..."
+    },
+    {
+      "kind": "absolute",
+      "match": [
+        "every child will",
+        "all kids will",
+        "all late talkers",
+        "every late talker"
+      ],
+      "why": "'All' and 'every' claims leave out the kids they don't fit.",
+      "try": "Many kids..."
+    },
+    {
+      "kind": "superlative",
+      "match": [
+        "best speech therapist",
+        "best slp in",
+        "number one",
+        "top rated",
+        "top-rated"
+      ],
+      "why": "Superlatives you can't prove can read as misleading advertising.",
+      "try": "Speech therapy for [who you help] in [your town]."
+    },
+    {
+      "kind": "credential",
+      "match": [
+        "board certified",
+        "certified in",
+        "specialist in",
+        "expert in"
+      ],
+      "why": "Name only credentials you hold, written the official way.",
+      "try": "Use your exact credential, e.g. M.S., CCC-SLP."
+    },
+    {
+      "kind": "causation",
+      "match": [
+        "screen time causes",
+        "causes speech delay",
+        "causes speech delays",
+        "causes autism",
+        "caused his delay",
+        "caused her delay",
+        "caused their delay"
+      ],
+      "why": "Cause-and-effect claims about delays and autism need strong evidence, and parents can hear blame.",
+      "try": "Here's what can help..."
+    },
+    {
+      "kind": "scope",
+      "match": [
+        "frenectomy will",
+        "the release will fix",
+        "cutting the tongue tie",
+        "tongue tie causes",
+        "clipping the tongue"
+      ],
+      "why": "Results after a tongue tie release vary, and the decision is medical.",
+      "try": "If you're wondering about a tongue tie, ask your pediatrician or dentist. An SLP can look at how the tongue moves."
+    },
+    {
+      "kind": "comparison",
+      "match": [
+        "faster than",
+        "better than other",
+        "other slps don't",
+        "unlike other therapists"
+      ],
+      "why": "Comparing yourself to other clinicians can break ethics rules on how you represent services.",
+      "try": "Here's how I work..."
+    },
+    {
+      "kind": "insurance",
+      "match": [
+        "insurance covers",
+        "insurance will pay",
+        "covered by insurance",
+        "will be reimbursed",
+        "insurance will cover"
+      ],
+      "why": "Coverage depends on the plan. Promising it can backfire.",
+      "try": "Many families use out-of-network benefits. Check your plan."
+    },
+    {
+      "kind": "beforeafter",
+      "match": [
+        "before and after",
+        "before after",
+        "look at the difference",
+        "look at them now"
+      ],
+      "why": "Before/after of a client is client footage: that's a red light.",
+      "try": "Cut it. Show the strategy, not the client."
+    },
+    {
+      "kind": "stats",
+      "match": [
+        "# percent of my clients",
+        "#% of my clients",
+        "all my clients",
+        "every one of my clients"
+      ],
+      "why": "Outcome numbers about your clients are claims you'd need to back up, and they point at clients.",
+      "try": "Many kids I work with..."
+    },
+    {
+      "kind": "promise",
+      "match": [
+        "will catch up",
+        "they'll catch up",
+        "will grow out of it"
+      ],
+      "why": "Fine when you're busting the myth. Not fine as a promise.",
+      "try": "Some kids catch up and some need support. That's why it's worth checking."
+    },
+    {
+      "kind": "hype",
+      "match": [
+        "miracle",
+        "magic trick",
+        "the secret to",
+        "game changer",
+        "rewire the brain",
+        "rewire their brain"
+      ],
+      "why": "Hype words oversell and can sound like a sales pitch for a health service.",
+      "try": "A simple way to..."
+    },
+    {
+      "kind": "promise",
+      "match": [
+        "you don't need therapy",
+        "you don't need speech therapy",
+        "no therapy needed",
+        "skip therapy"
+      ],
+      "why": "Some kids do need therapy. Don't talk anyone out of help.",
+      "try": "If you're worried, it's worth asking."
+    },
+    {
+      "kind": "scope",
+      "match": [
+        "i diagnose autism",
+        "i can diagnose autism",
+        "i diagnosed",
+        "i can tell if your child is autistic"
+      ],
+      "why": "An autism diagnosis is outside most SLPs' scope. Check your state.",
+      "try": "I can screen and help you find the right next step."
+    },
+    {
+      "kind": "scope",
+      "match": [
+        "supplement",
+        "supplements",
+        "essential oil",
+        "essential oils",
+        "melatonin",
+        "stop the reflux"
+      ],
+      "why": "Supplements, medications and alternative treatments are outside an SLP's lane.",
+      "try": "Talk to your pediatrician."
+    }
+  ],
+  "stoplightExtras": [
+    {
+      "id": "materials",
+      "text": "Therapy materials with a name, photo or handwriting are showing (artwork, name tags, picture schedules)",
+      "level": "yellow",
+      "fix": "Crop past them, cover them, or film before materials go out."
+    },
+    {
+      "id": "aac",
+      "text": "An AAC device or picture board that belongs to a client is in frame (their photos, name or custom buttons)",
+      "level": "yellow",
+      "fix": "Use a demo device or a blank board, or keep it out of the shot."
+    },
+    {
+      "id": "telehealth",
+      "text": "A video call screen is visible, even a thumbnail or frozen frame",
+      "level": "yellow",
+      "fix": "Close the call window before filming. If a client's face shows, it's red."
+    },
+    {
+      "id": "audio",
+      "text": "A child's voice can be heard in the background (waiting room, next room)",
+      "level": "yellow",
+      "fix": "Cut that part, or re-film when it's quiet."
+    },
+    {
+      "id": "docs",
+      "text": "Eval forms, test protocols, reports or session notes are on screen or on the table",
+      "level": "yellow",
+      "fix": "Clear the table and close the laptop. Blank protocols are fine; filled ones aren't."
+    },
+    {
+      "id": "school",
+      "text": "School-based: a district logo, classroom labels or student work is in frame",
+      "level": "yellow",
+      "fix": "Film somewhere neutral, and check your district's social media policy."
+    }
+  ],
+  "reelTypes": [
+    {
+      "id": "tip",
+      "name": "Talking-head tip",
+      "length": "20-45s",
+      "bestFor": "parents",
+      "beats": [
+        "Hook: the problem or the surprising part",
+        "The tip, with one real-life example",
+        "Why it works, in one sentence",
+        "Close: what to do next"
+      ]
+    },
+    {
+      "id": "bts",
+      "name": "Behind the scenes",
+      "length": "8-20s",
+      "bestFor": "trust",
+      "beats": [
+        "Hook text sets up the story",
+        "3-6 quick clips, 1-3 seconds each",
+        "Close text: a feeling or a line"
+      ],
+      "note": "No clients, ever. Check every clip's background."
+    },
+    {
+      "id": "question",
+      "name": "Parent question / myth vs. fact",
+      "length": "30-60s",
+      "bestFor": "parents searching for answers",
+      "beats": [
+        "Hook: the question in the parent's words",
+        "Short answer first",
+        "2-3 points, a text card for each",
+        "Close: when to get help"
+      ]
+    },
+    {
+      "id": "dothis",
+      "name": "Do this, not that",
+      "length": "15-30s",
+      "bestFor": "saves and shares",
+      "beats": [
+        "Hook: the thing most people do",
+        "Not that: say or show it",
+        "Do this: the swap",
+        "Why, in one line",
+        "Close: try it today"
+      ]
+    },
+    {
+      "id": "demo",
+      "name": "Hands-only demo",
+      "length": "20-40s",
+      "bestFor": "showing a strategy",
+      "beats": [
+        "Hook: what you're about to show",
+        "The toy or book",
+        "Model it twice, slowly",
+        "What to watch for",
+        "Close: try it at home"
+      ],
+      "note": "Your hands and voice only. No child, ever. A stuffed animal can play the child."
+    },
+    {
+      "id": "referral",
+      "name": "For teachers & pediatricians",
+      "length": "30-45s",
+      "bestFor": "referral partners",
+      "beats": [
+        "Hook: who this is for",
+        "2-3 signs worth a referral",
+        "What happens after they refer",
+        "Close: how to refer to you"
+      ]
+    }
+  ],
+  "hooks": [
+    {
+      "reelType": "tip",
+      "audience": "parents",
+      "text": "Quizzing your toddler isn't the same as teaching words."
+    },
+    {
+      "reelType": "tip",
+      "audience": "parents",
+      "text": "Try this the next time they point and grunt."
+    },
+    {
+      "reelType": "tip",
+      "audience": "parents",
+      "text": "Bath time is secretly great for talking. Here's why."
+    },
+    {
+      "reelType": "tip",
+      "audience": "parents",
+      "text": "The car might be the best place to practice talking."
+    },
+    {
+      "reelType": "tip",
+      "audience": "parents",
+      "text": "Say less, so your toddler can catch more."
+    },
+    {
+      "reelType": "tip",
+      "audience": "parents",
+      "text": "Your child says one word. Add one more."
+    },
+    {
+      "reelType": "tip",
+      "audience": "parents",
+      "text": "Wait five seconds. Then watch what happens."
+    },
+    {
+      "reelType": "tip",
+      "audience": "parents",
+      "text": "Reading the whole book isn't the point."
+    },
+    {
+      "reelType": "tip",
+      "audience": "parents",
+      "text": "If your child says 'tat' for 'cat,' watch this."
+    },
+    {
+      "reelType": "tip",
+      "audience": "parents",
+      "text": "A snack-time trick for more chances to talk."
+    },
+    {
+      "reelType": "tip",
+      "audience": "clinicians",
+      "text": "SLPs: your parent handouts are too long."
+    },
+    {
+      "reelType": "tip",
+      "audience": "clinicians",
+      "text": "What I tell parents at the very first visit."
+    },
+    {
+      "reelType": "bts",
+      "audience": "parents",
+      "text": "Setting up my therapy room before anyone gets here."
+    },
+    {
+      "reelType": "bts",
+      "audience": "parents",
+      "text": "What I do after every session that nobody sees."
+    },
+    {
+      "reelType": "bts",
+      "audience": "parents",
+      "text": "Everything in my therapy bag, and why."
+    },
+    {
+      "reelType": "bts",
+      "audience": "parents",
+      "text": "What my family thinks I do all day vs. reality."
+    },
+    {
+      "reelType": "bts",
+      "audience": "clinicians",
+      "text": "Prepping one toy five different ways."
+    },
+    {
+      "reelType": "bts",
+      "audience": "clinicians",
+      "text": "The unglamorous side of running a private practice."
+    },
+    {
+      "reelType": "bts",
+      "audience": "parents",
+      "text": "My favorite therapy toy costs under $10."
+    },
+    {
+      "reelType": "question",
+      "audience": "parents",
+      "text": "'Should my 2-year-old be saying more words?'"
+    },
+    {
+      "reelType": "question",
+      "audience": "parents",
+      "text": "Does screen time cause speech delays? What I tell parents."
+    },
+    {
+      "reelType": "question",
+      "audience": "parents",
+      "text": "'He's a boy, he'll talk later.' Let's talk about that."
+    },
+    {
+      "reelType": "question",
+      "audience": "parents",
+      "text": "3 signs it's worth getting a speech evaluation."
+    },
+    {
+      "reelType": "question",
+      "audience": "parents",
+      "text": "Will two languages confuse my child?"
+    },
+    {
+      "reelType": "question",
+      "audience": "parents",
+      "text": "Is it a lisp, or just a phase?"
+    },
+    {
+      "reelType": "question",
+      "audience": "parents",
+      "text": "What actually happens at a speech evaluation?"
+    },
+    {
+      "reelType": "question",
+      "audience": "parents",
+      "text": "Does a pacifier hurt speech? It depends."
+    },
+    {
+      "reelType": "question",
+      "audience": "parents",
+      "text": "'Is my child's stuttering my fault?'"
+    },
+    {
+      "reelType": "question",
+      "audience": "parents",
+      "text": "When should strangers understand what my child says?"
+    },
+    {
+      "reelType": "dothis",
+      "audience": "parents",
+      "text": "Don't say 'say ___.' Try this instead."
+    },
+    {
+      "reelType": "dothis",
+      "audience": "parents",
+      "text": "Not 'use your words.' Try this."
+    },
+    {
+      "reelType": "dothis",
+      "audience": "parents",
+      "text": "Correcting their speech? Do this instead."
+    },
+    {
+      "reelType": "dothis",
+      "audience": "parents",
+      "text": "Skip the yes/no question. Offer two choices."
+    },
+    {
+      "reelType": "dothis",
+      "audience": "parents",
+      "text": "Don't finish their sentence. Do this instead."
+    },
+    {
+      "reelType": "dothis",
+      "audience": "parents",
+      "text": "Skip the flashcards. Grab this instead."
+    },
+    {
+      "reelType": "dothis",
+      "audience": "parents",
+      "text": "Instead of 'what color is it?' try this."
+    },
+    {
+      "reelType": "dothis",
+      "audience": "clinicians",
+      "text": "SLPs: don't end sessions with 'any questions?'"
+    },
+    {
+      "reelType": "demo",
+      "audience": "parents",
+      "text": "One toy car, ten words. Watch."
+    },
+    {
+      "reelType": "demo",
+      "audience": "parents",
+      "text": "How I'd read this book with a late talker."
+    },
+    {
+      "reelType": "demo",
+      "audience": "parents",
+      "text": "Bubbles, but make it speech practice."
+    },
+    {
+      "reelType": "demo",
+      "audience": "parents",
+      "text": "Modeling AAC in 30 seconds. Watch my hands."
+    },
+    {
+      "reelType": "demo",
+      "audience": "parents",
+      "text": "How to play 'ready, set... go' for speech."
+    },
+    {
+      "reelType": "demo",
+      "audience": "parents",
+      "text": "One puzzle, three ways to build language."
+    },
+    {
+      "reelType": "demo",
+      "audience": "parents",
+      "text": "What 'modeling' actually looks like at home."
+    },
+    {
+      "reelType": "referral",
+      "audience": "referral",
+      "text": "Teachers: when a speech referral makes sense."
+    },
+    {
+      "reelType": "referral",
+      "audience": "referral",
+      "text": "Pediatricians: speech signs worth a referral."
+    },
+    {
+      "reelType": "referral",
+      "audience": "referral",
+      "text": "What happens after you refer a family to me."
+    },
+    {
+      "reelType": "referral",
+      "audience": "referral",
+      "text": "Daycare teachers: what I wish you knew about late talkers."
+    },
+    {
+      "reelType": "referral",
+      "audience": "referral",
+      "text": "'Wait and see' or 'let's check'? When to refer."
+    },
+    {
+      "reelType": "referral",
+      "audience": "clinicians",
+      "text": "OTs and PTs: when to loop in an SLP."
+    }
+  ],
+  "swaps": [
+    {
+      "term": "expressive language",
+      "parent": "how your child puts words together"
+    },
+    {
+      "term": "receptive language",
+      "parent": "how your child understands what you say"
+    },
+    {
+      "term": "articulation",
+      "parent": "how clearly your child says sounds"
+    },
+    {
+      "term": "phonological processes",
+      "parent": "sound patterns kids use while they're learning (like 'tat' for 'cat')"
+    },
+    {
+      "term": "disfluency",
+      "parent": "stuttering, getting stuck on words"
+    },
+    {
+      "term": "pragmatics",
+      "parent": "using words with other people: taking turns, asking, joining in"
+    },
+    {
+      "term": "AAC",
+      "parent": "other ways to talk: pictures, a talker device, signs"
+    },
+    {
+      "term": "modeling",
+      "parent": "showing the words yourself"
+    },
+    {
+      "term": "joint attention",
+      "parent": "looking at the same thing together"
+    },
+    {
+      "term": "intervention",
+      "parent": "therapy, support"
+    },
+    {
+      "term": "social language",
+      "parent": "using words with other people"
+    },
+    {
+      "term": "feeding therapy",
+      "parent": "help with eating and trying new foods"
+    },
+    {
+      "term": "oral motor",
+      "parent": "how the mouth, lips and tongue move"
+    },
+    {
+      "term": "expansion",
+      "parent": "adding a word to what they said ('car' → 'red car')"
+    },
+    {
+      "term": "sensory processing",
+      "parent": "how your child handles sounds, touch and movement"
+    },
+    {
+      "term": "fine motor",
+      "parent": "hand skills: holding a crayon, buttons, snacks"
+    },
+    {
+      "term": "gross motor",
+      "parent": "big movements: crawling, walking, climbing"
+    },
+    {
+      "term": "milestones",
+      "parent": "what most kids are doing around this age"
+    },
+    {
+      "term": "evaluation",
+      "parent": "a visit where we find out what's going on"
+    },
+    {
+      "term": "prognosis",
+      "parent": "what we expect going forward"
+    },
+    {
+      "term": "phoneme",
+      "parent": "a speech sound"
+    },
+    {
+      "term": "intelligibility",
+      "parent": "how easy your child is to understand"
+    },
+    {
+      "term": "stimulability",
+      "parent": "whether your child can say the sound with help"
+    },
+    {
+      "term": "motor planning",
+      "parent": "how the brain tells the mouth what to do"
+    },
+    {
+      "term": "apraxia",
+      "parent": "trouble planning the mouth movements for speech"
+    },
+    {
+      "term": "dysarthria",
+      "parent": "weak or slow speech muscles"
+    },
+    {
+      "term": "dysphagia",
+      "parent": "trouble swallowing"
+    },
+    {
+      "term": "aphasia",
+      "parent": "trouble with language after a stroke or brain injury"
+    },
+    {
+      "term": "echolalia",
+      "parent": "repeating words or phrases they've heard"
+    },
+    {
+      "term": "gestalt language processing",
+      "parent": "learning language in chunks or phrases first"
+    },
+    {
+      "term": "MLU",
+      "parent": "how many words they put together"
+    },
+    {
+      "term": "resonance",
+      "parent": "how the voice sounds through the nose and mouth"
+    },
+    {
+      "term": "hypernasality",
+      "parent": "sounding like they're talking through their nose"
+    },
+    {
+      "term": "IEP",
+      "parent": "the school plan for your child's support"
+    },
+    {
+      "term": "IFSP",
+      "parent": "the early intervention plan for your family"
+    },
+    {
+      "term": "early intervention",
+      "parent": "your state's support for kids under 3"
+    },
+    {
+      "term": "DLD",
+      "parent": "a lasting difficulty learning and using language"
+    },
+    {
+      "term": "phonemic awareness",
+      "parent": "hearing the sounds inside words"
+    },
+    {
+      "term": "decoding",
+      "parent": "sounding out words"
+    },
+    {
+      "term": "generalization",
+      "parent": "using a new skill everywhere, not just in therapy"
+    }
+  ],
+  "careLines": [
+    "General info, not medical advice. Talk to your child's provider about your child.",
+    "Every child is different. If you're worried, it's worth asking an SLP.",
+    "This isn't a diagnosis. An evaluation is how we find out what's going on.",
+    "Not a substitute for therapy. Just one thing to try at home."
+  ],
+  "captionPresets": [
+    {
+      "id": "calm",
+      "name": "Calm clinic",
+      "style": "clean",
+      "case": "sentence",
+      "linesMax": 2
+    },
+    {
+      "id": "bold",
+      "name": "Bold tip",
+      "style": "box",
+      "case": "sentence",
+      "linesMax": 2
+    },
+    {
+      "id": "play",
+      "name": "Playful",
+      "style": "pop",
+      "case": "upper",
+      "linesMax": 1
+    }
+  ],
+  "hashtagSets": [
+    {
+      "name": "Toddler talk",
+      "tags": [
+        "#toddlertalk",
+        "#latetalker",
+        "#speechdevelopment",
+        "#toddlerlearning",
+        "#speechtherapy"
+      ]
+    },
+    {
+      "name": "Speech sounds",
+      "tags": [
+        "#articulation",
+        "#speechsounds",
+        "#lisp",
+        "#kidsspeech",
+        "#speechtherapy"
+      ]
+    },
+    {
+      "name": "AAC & neurodiversity",
+      "tags": [
+        "#AAC",
+        "#AACawareness",
+        "#gestaltlanguageprocessing",
+        "#neurodiversityaffirming",
+        "#autismacceptance"
+      ]
+    },
+    {
+      "name": "Feeding",
+      "tags": [
+        "#feedingtherapy",
+        "#pickyeating",
+        "#toddlermeals",
+        "#mealtimetips",
+        "#speechtherapy"
+      ]
+    },
+    {
+      "name": "Local",
+      "tags": [
+        "#{town}speechtherapy",
+        "#{town}parents",
+        "#{town}kids",
+        "#speechtherapy",
+        "#slp"
+      ]
+    },
+    {
+      "name": "SLP community",
+      "tags": [
+        "#slp",
+        "#slpeeps",
+        "#privatepracticeslp",
+        "#speechpathology",
+        "#slp2b"
+      ]
+    }
+  ]
+}

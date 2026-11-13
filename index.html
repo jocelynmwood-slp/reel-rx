@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reel Rx: phase 1 spike</title>
+<style>
+  :root { --ink:#1d1d1f; --mute:#6b6b70; --line:#e3e1dc; --bg:#faf8f4; --acc:#b5432f; --ok:#2e7d4f; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:15px/1.5 -apple-system, system-ui, sans-serif; color:var(--ink); background:var(--bg); }
+  main { max-width:1100px; margin:0 auto; padding:20px 16px 80px; }
+  h1 { font-size:20px; margin:0 0 4px; } h2 { font-size:15px; margin:0 0 8px; }
+  .sub { color:var(--mute); margin:0 0 16px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:10px; padding:14px; margin-bottom:14px; }
+  .row { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+  button, select { font:inherit; padding:7px 12px; border-radius:8px; border:1px solid var(--line); background:#fff; cursor:pointer; }
+  button.primary { background:var(--ink); color:#fff; border-color:var(--ink); }
+  button:disabled { opacity:.45; cursor:default; }
+  #grid { display:grid; grid-template-columns: 300px 1fr; gap:14px; }
+  @media (max-width: 800px) { #grid { grid-template-columns: 1fr; } }
+  video { width:100%; max-height:520px; background:#000; border-radius:8px; }
+  #transcript { line-height:2.1; font-size:17px; max-height:520px; overflow:auto; }
+  .w { padding:1px 2px; border-radius:4px; cursor:pointer; }
+  .w:hover { background:#f1ece2; }
+  .w.cut { text-decoration:line-through; opacity:.35; }
+  .w.now { background:#ffe9a8; }
+  .chip { font-size:12px; color:var(--mute); background:#eee; border-radius:10px; padding:1px 7px; margin:0 2px; cursor:pointer; }
+  .chip.filler { background:#e6e0f5; color:#4a3a8a; }
+  .chip.cut { text-decoration:line-through; opacity:.4; }
+  table { border-collapse:collapse; width:100%; font-size:14px; }
+  td { padding:4px 6px; border-bottom:1px solid var(--line); vertical-align:top; }
+  td:first-child { color:var(--mute); width:230px; }
+  progress { width:100%; height:10px; }
+  #log { font:12px/1.4 ui-monospace, monospace; white-space:pre-wrap; color:var(--mute); max-height:140px; overflow:auto; }
+  .bad { color:var(--acc); font-weight:600; } .good { color:var(--ok); font-weight:600; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Reel Rx · phase 1 spike</h1>
+  <p class="sub">A bare test page. Nothing is uploaded: your video stays in this browser. The only download is the speech model (cached after the first time).</p>
+
+  <div class="card">
+    <div class="row">
+      <input type="file" id="file" accept="video/*,.mov,.mp4,.m4v,.webm">
+      <label>Model <select id="model">
+        <option value="Xenova/whisper-tiny.en">tiny.en (fastest)</option>
+        <option value="Xenova/whisper-base.en" selected>base.en (default)</option>
+        <option value="Xenova/whisper-small.en">small.en (most accurate)</option>
+      </select></label>
+      <label>Engine <select id="device"><option value="wasm">CPU (wasm)</option><option value="webgpu">GPU (webgpu)</option></select></label>
+      <button id="go" class="primary" disabled>1. Transcribe</button>
+    </div>
+    <progress id="prog" value="0" max="1" hidden></progress>
+    <div id="status" class="sub" style="margin:6px 0 0"></div>
+  </div>
+
+  <div id="grid">
+    <div class="card">
+      <video id="video" controls playsinline></video>
+      <div class="sub" id="lens" style="margin:6px 0 0"></div>
+    </div>
+    <div class="card">
+      <div class="row" style="margin-bottom:8px">
+        <button id="rmPause" disabled>Remove pauses</button>
+        <button id="rmUm" disabled>Remove um's</button>
+        <button id="restore" disabled>Restore all</button>
+        <button id="play" disabled>▶ Preview edit</button>
+        <span class="sub">Click a word to cut it · Shift-click a second word to cut the range</span>
+      </div>
+      <div id="transcript"><span class="sub">Transcript appears here.</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="row">
+      <label>Transitions <select id="trans"><option value="smart">Smart (punch-in)</option><option value="cross">Crossfade everything</option><option value="hard">Hard cuts</option></select></label>
+      <label>Captions <select id="caps"><option value="box">Box</option><option value="clean">Clean</option><option value="off">Off</option></select></label>
+      <label>Hook text <input id="hook" value="Stop asking 'what's this?'" size="28"></label>
+      <button id="export" class="primary" disabled>2. Export 1080×1920 MP4</button>
+    </div>
+    <div id="exportOut" style="margin-top:8px"></div>
+  </div>
+
+  <div class="card">
+    <h2>Test report (copy this back to Claude)</h2>
+    <table id="report"></table>
+    <div class="row" style="margin-top:8px"><button id="copy">Copy report</button></div>
+  </div>
+  <div class="card"><h2>Log</h2><div id="log"></div></div>
+</main>
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>

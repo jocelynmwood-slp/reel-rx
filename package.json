@@ -1,0 +1,17 @@
+{
+  "name": "reel-rx-editor",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && rm -f dist/assets/*.wasm",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.2",
+    "@mediabunny/aac-encoder": "^1.65.2",
+    "mediabunny": "^1.65.2",
+    "vite": "^8.3.7"
+  }
+}
